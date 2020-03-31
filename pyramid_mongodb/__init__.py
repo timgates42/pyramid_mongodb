@@ -12,7 +12,7 @@ simplified mongodb integration
         ## ...
         return config.make_wsgi_app()
 
-2. in each of your envinronment.ini files, have:
+2. in each of your environment.ini files, have:
 
     mongodb.use = true
     mongodb.uri = mongodb://localhost
